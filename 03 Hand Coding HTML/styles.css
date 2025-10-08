@@ -1,0 +1,126 @@
+body {
+    font-family: "Workbench";
+    margin: 0;
+}
+
+header {
+    background-color: #022601;
+    padding: 1rem 10px; 
+}
+header span {
+    color: #0bd904;
+    font-size: 1.6rem;
+    font-weight: 700s;
+}
+
+
+
+nav{
+    background-color: #022601;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem .83rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #0bd904;
+}
+
+nav li.active a {
+    background-color: #0bd904;
+    color: #078c03;
+}
+
+nav li a:hover {
+    color: #055902;
+}
+
+/*main stuff here*/
+main {
+    padding: 1rem 10px
+}
+
+main h1 {
+    color: #0bd904;
+    background-color: #022601;
+}
+main h2 {
+    color: #0bd904;
+    margin: .2rem;
+    background-color: #022601;
+}
+main p {
+    margin: 0;
+    color: #0bd904;
+    background-color: #022601;
+}
+main ol {
+    padding: .5rem 30px;
+    color: #0bd904;
+    background-color: #022601;
+}
+main dl dt {
+    color: #0bd904;
+    font-weight: 700;
+    margin-top: 1rem;
+    background-color: #022601;
+}
+main dl dd {
+    color: #0bd904;
+    font-weight: 700;
+    margin-top: 1rem;
+    background-color: #022601;
+}
+main ul {
+    list-style-type: circle;
+    color: #0bd904;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: #0bd904;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    color: #0bd904;
+    background-color: #022601;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #022601;
+    width: 200px;
+}
+main a {
+    color: #0bd904;
+}
+main a:hover {
+    color: #055902;
+}
+
+
+
+/* footer stuff here*/
+footer {
+    background-color: #022601;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #0bd904;
+    
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
