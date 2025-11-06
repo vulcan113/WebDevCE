@@ -41,6 +41,26 @@ nav li a:hover {
     color: #055902;
 }
 
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 30%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+img.wrapped {
+    width: 50%;
+    height: auto;
+}
 /*main stuff here*/
 main {
     padding: 1rem 10px
